@@ -1,0 +1,34 @@
+{
+  "name": "angular-animate-shim",
+  "version": "0.0.0",
+  "homepage": "https://github.com/btford/angular-animate-shim",
+  "authors": [
+    "Brian Ford <btford@umich.edu>"
+  ],
+  "description": "adds a $animate service for versions of Angular 1.1.x and below",
+  "main": "animate.js",
+  "moduleType": [
+    "angular"
+  ],
+  "keywords": [
+    "angular",
+    "angularjs",
+    "animate",
+    "animation",
+    "shim"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.0.x"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.0.x"
+  }
+}

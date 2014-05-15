@@ -1,0 +1,31 @@
+{
+  "name": "angular-animate-shim",
+  "version": "0.0.0",
+  "description": "adds a $animate service for versions of Angular 1.1.x and below",
+  "main": "animate.js",
+  "scripts": {
+    "test": "bower install && ./node_modules/.bin/karma start karma.conf.js --browsers Firefox --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/btford/angular-animate-shim.git"
+  },
+  "keywords": [
+    "angular",
+    "animate",
+    "animation",
+    "angularjs",
+    "shim"
+  ],
+  "author": "Brian Ford",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/btford/angular-animate-shim/issues"
+  },
+  "homepage": "https://github.com/btford/angular-animate-shim",
+  "devDependencies": {
+    "karma": "~0.10",
+    "karma-junit-reporter": "~0.1.0",
+    "bower": "~1.2.7"
+  }
+}
