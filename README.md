@@ -14,13 +14,13 @@ This does not allow versions of Angular `1.1.x` and below to perform animations.
 via npm:
 
 ```shell
-npm install angular-animate
+npm install angular-animate-shim
 ```
 
 or via `bower`:
 
 ```shell
-bower install angular-animate
+bower install angular-animate-shim
 ```
 
 
