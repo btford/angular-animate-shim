@@ -1,6 +1,6 @@
 
-angular.module('btford.animate', []).
-provide('$animate', ['$provide', function($provide) {
+angular.module('btford.animate-shim', []).
+provider('$animate', ['$provide', function($provide) {
   'use strict';
 
   // based on this lil file over here:
