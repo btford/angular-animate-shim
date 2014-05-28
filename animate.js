@@ -63,4 +63,4 @@ provide('$animate', ['$provide', function($provide) {
       enabled : angular.noop
     };
   }];
-}];
+}]);
