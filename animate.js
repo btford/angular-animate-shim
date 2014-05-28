@@ -1,5 +1,15 @@
 
 angular.module('btford.animate-shim', []).
+provider('$$asyncCallback', [function $$AsyncCallbackProvider() {
+  'use strict';
+
+  this.$get = ['$timeout', function($timeout) {
+    return function(fn) {
+        return $timeout(fn, 0, false);
+    };
+  }];
+
+}]).
 provider('$animate', ['$provide', function($provide) {
   'use strict';
 
